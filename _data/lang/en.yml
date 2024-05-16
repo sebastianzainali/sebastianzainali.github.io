@@ -11,6 +11,7 @@ lng:
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: US
   switch_title: En
+  flag: en.png
   offer:
     title: Language
     msg_page: View this page in English.

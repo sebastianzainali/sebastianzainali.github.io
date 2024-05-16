@@ -12,6 +12,7 @@ lng:
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: FR
   switch_title: Fr
+  flag: se.png
   offer:
     title: Langue
     msg_page: Voir cette page en français.
