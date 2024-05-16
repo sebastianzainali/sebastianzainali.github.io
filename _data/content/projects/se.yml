@@ -1,0 +1,232 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "Projekt"
+    info: "Beskrivning av din projektsida."
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
+
+  category:
+    - title: "Exempel"
+      type: id_example
+      color: "gray"
+    - title: "Bild"
+      type: id_picture
+      color: "#62b462"
+    - title: "Citat"
+      type: id_quote
+      color: "#2FD0ED"
+
+  list:
+    # example
+    - type: id_example
+      project_name: "Exempelprojekt"
+      project_excerpt: "Exempel"
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2021-03-13"
+      post: |
+        # Exempel
+
+        Detta är en exempelssida för att visa markdown-relaterade stilar för Mr. Green Jekyll Theme.
+
+        ### Rubriker (centrerat)
+        {:data-align="center"}
+
+        # Rubrik 1
+
+        ## Rubrik 2
+
+        ### Rubrik 3
+
+        #### Rubrik 4
+
+        ##### Rubrik 5
+
+        ###### Rubrik 6
+
+        ***
+
+        ### Paragrafer
+
+        #### Paragraf
+
+        **William Shakespeare**, Låt mig inte till äktenskap av sanna sinnen
+        Erkänna hinder. Kärlek är inte kärlek
+        Som förändras när den förändring finner,
+        Eller böjs med den borttagaren att ta bort.
+        O nej, det är ett evigt märke
+        Som ser på stormar och inte skakas;
+        Det är stjärnan för varje vandrande båt,
+        Vars värde är okänt, även om dess höjd tas.
+        Kärlek är inte Tidens narr, även om rosiga läppar och kinder
+        Inom hans böjande lie kommer;
+        Kärleken förändras inte med hans korta timmar och veckor,
+        Men bär den ut även till domedagens kant.
+        Om detta är fel och på mig bevisat,
+        Jag har aldrig skrivit, inte heller någon man någonsin älskat.
+
+        #### Texter
+
+        Citerad text `Hello world`
+
+        Fet text **Hello world**
+
+        Kursiv text _Hello world_
+
+        kbd text <kbd>Hello world</kbd>
+
+        #### Blockcitat
+
+        > **William Shakespeare**, Låt mig inte till äktenskap av sanna sinnen
+        Erkänna hinder. Kärlek är inte kärlek
+        Som förändras när den förändring finner,
+        Eller böjs med den borttagaren att ta bort.
+        O nej, det är ett evigt märke
+        Som ser på stormar och inte skakas;
+        Det är stjärnan för varje vandrande båt,
+        Vars värde är okänt, även om dess höjd tas.
+        Kärlek är inte Tidens narr, även om rosiga läppar och kinder
+        Inom hans böjande lie kommer;
+        Kärleken förändras inte med hans korta timmar och veckor,
+        Men bär den ut även till domedagens kant.
+        Om detta är fel och på mig bevisat,
+        Jag har aldrig skrivit, inte heller någon man någonsin älskat.
+
+        ### Länk
+
+        Detta är [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), ett enkelt tema byggt för [Jekyll](https://jekyllrb.com/).
+
+        ### Bild
+
+        ![such a lovely place](:projects-heading.jpg)
+
+        ### Bild (centrerat)
+
+        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
+
+        ### Listor
+
+        - Apple
+        - Banana
+        - Orange
+
+        1. Frukt
+            1. Äpplen
+                - Granny Smith
+                - Mutsu
+            1. Bananer
+                - Cavendish
+                - Röd
+        1. Grönsaker
+
+        ***
+
+        ### Tabeller
+
+        #### Liten Tabell (centrerat)
+
+        | Frukt (inte justerad) | Justering (centrerat) | num (högerjusterad) |
+        | --------------------- | :-------------------: | ------------------: |
+        | Apple                 |       centrerad       |               9999 |
+        | Banana                |  centrerad lång text  |                999 |
+        | Orange                |       centrerad       |                 99 |
+        | Lemon                 |       centrerad       |                  9 |
+        {:data-align="center"}
+
+        #### Bred Tabell (centrerat)
+
+        rullning aktiverad när sidan är smal
+
+        | Frukt  | num (vänsterjusterad) | num (högerjusterad) | num  | num  | num  |
+        | ------ | :-------------------- | ------------------: | ---- | ---- | ---- |
+        | Apple  | 1111                  |               1111 | 2222 | 3333 | 4444 |
+        | Banana | 111                   |                111 | 222  | 333  | 444  |
+        | Orange | 11                    |                 11 | 22   | 33   | 44   |
+        | Lemon  | 1                     |                  1 | 2    | 3    | 4    |
+        {:data-align="center"}
+
+        #### Bredare Tabell
+
+        rullning aktiverad när sidan är smal
+
+        | Frukt  | num (vänsterjusterad) | num (högerjusterad) | num  | num  | num  | num  | num  | num  |
+        | ------ | :-------------------- | ------------------: | ---- | ---- | ---- | ---- | ---- | ---- |
+        | Apple  | 1111                  |               1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
+        | Banana | 111                   |                111 | 222  | 333  | 444  | 555  | 666  | 777  |
+        | Orange | 11                    |                 11 | 22   | 33   | 44   | 55   | 66   | 77   |
+        | Lemon  | 1                     |                  1 | 2    | 3    | 4    | 5    | 6    | 7    |
+
+        ### Kod
+
+        #### Citat
+
+        ```python
+        for i in range(5, 10):
+          print(i)
+        ```
+
+    # picture
+    - type: id_picture
+      project_name: "Exempelprojekt"
+      project_excerpt: "Bild"
+      img: ":project2_thumb.jpg"
+      img_title: "img title2"
+      date: "2021-04-23"
+      post: |
+        # Titel
+        Detta är projektinnehåll.
+
+        ![Bild](:project2_thumb.jpg)
+
+    # quote
+    - type: id_quote
+      project_name: "Exempelprojekt"
+      project_excerpt: "William Shakespeare"
+      #img: ":project1_thumb.jpg"
+      #img_title: "img title3"
+      date: "2021-05-27"
+      post: |
+        Låt mig inte till äktenskap av sanna sinnen
+        Erkänna hinder. Kärlek är inte kärlek
+        Som förändras när den förändring finner,
+        Eller böjs med den borttagaren att ta bort.
+        O nej, det är ett evigt märke
+        Som ser på stormar och inte skakas;
+        Det är stjärnan för varje vandrande båt,
+        Vars värde är okänt, även om dess höjd tas.
+        Kärlek är inte Tidens narr, även om rosiga läppar och kinder
+        Inom hans böjande lie kommer;
+        Kärleken förändras inte med hans korta timmar och veckor,
+        Men bär den ut även till domedagens kant.
+        Om detta är fel och på mig bevisat,
+        Jag har aldrig skrivit, inte heller någon man någonsin älskat.
+    - type: id_quote
+      project_name: "Exempelprojekt"
+      project_excerpt: "Albert Einstein"
+      img: ":project2_thumb.jpg"
+      img_title: "img title4"
+      date: "2021-06-08"
+      post: |
+        Två saker är oändliga: universum och mänsklig dumhet; och jag är inte säker på universum.
+    - type: id_quote
+      project_name: "Exempelprojekt"
+      project_excerpt: "Mae West"
+      img: ":project1_thumb.jpg"
+      img_title: "img title5"
+      date: "2021-08-20"
+      post: |
+        Du lever bara en gång, men om du gör det rätt, räcker det med en gång.
+    - type: id_quote
+      project_name: "Exempelprojekt"
+      project_excerpt: "Mahatma Gandhi"
+      img: ":project2_thumb.jpg"
+      img_title: "img title6"
+      date: "2021-12-20"
+      post: |
+        Var den förändring som du önskar se i världen.
