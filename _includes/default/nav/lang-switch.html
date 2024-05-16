@@ -35,7 +35,6 @@
 {%- if exist_lng_list.size > 1 %}
 
 <div class="lang-switch">
-  <p>[&nbsp;</p>
   {%- if lng_page_pair.size == lng_list.size and lng_page_pair.size > 0 -%}
     <ul translate="no">
     {%- for tmp_lng in exist_lng_list -%}
@@ -69,7 +68,6 @@
   {%- endcomment -%}
     <p>lang count ({{lng_list.size}}) and file count ({{lng_page_pair.size}}) don't match or file count is 0&nbsp;</p> {%- comment -%} for debug purpose {%- endcomment -%}
   {%- endif -%}
-  <p>]</p>
 </div>
 
 {%- endif -%}

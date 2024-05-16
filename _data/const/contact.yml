@@ -38,10 +38,10 @@ facebook:
   icon: "fa fa-facebook"
   url: "https://www.facebook.com"
 orcid:
-  icon: "fa fa-orcid"
+  icon: "/assets/img/default/orcid.png"
   url: "https://orcid.org/"
 googlescholar:
-  icon: "fa fa-google-scholar"
+  icon: "/assets/img/default/googlescholar.png"
   url: "https://scholar.google.com/citations?user="
 # add your new contact
 # your_new_contact:
