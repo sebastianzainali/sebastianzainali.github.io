@@ -47,7 +47,7 @@
         {%- include multi_lng/get-lng-code.liquid lng = get_lng -%}
         <li lang="{{ lng_code }}">
           <a href="{{ site.baseurl }}{{ lng_page.url }}" class="{{ active_class }} {{ site.data.conf.main.language_switch_hover_effect }}">
-            <img src="{{ site.baseurl }}/assets/images/flags/{{ site.data.lang[get_lng].lng.flag }}" alt="{{ site.data.lang[get_lng].lng.switch_title }}" width="24" height="16">
+            <img src="{{ site.baseurl }}/assets/img/flags/{{ site.data.lang[get_lng].lng.flag }}" alt="{{ site.data.lang[get_lng].lng.switch_title }}" width="24" height="16">
           </a>
         </li>
         {%- assign lng_set_flg = true -%}
@@ -55,7 +55,7 @@
       {%- if lng_set_flg == nil -%}
         <li>
           <a href="javascript:void(0);" class="{{ site.data.conf.main.language_switch_hover_effect }}" onclick="showToolTip(this, '{{ site.data.lang[tmp_lng].no_translation_tooltip }}');" data-toggle="tooltip" data-placement="bottom" title="">
-            <img src="{{ site.baseurl }}/assets/images/flags/{{ site.data.lang[tmp_lng].lng.flag }}" alt="{{ site.data.lang[tmp_lng].lng.switch_title }}" width="24" height="16">
+            <img src="{{ site.baseurl }}/assets/imag/flags/{{ site.data.lang[tmp_lng].lng.flag }}" alt="{{ site.data.lang[tmp_lng].lng.switch_title }}" width="24" height="16">
           </a>
         </li>
       {%- endif -%}
