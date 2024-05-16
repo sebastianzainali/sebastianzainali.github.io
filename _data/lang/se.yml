@@ -1,6 +1,3 @@
-Självklart! Här är innehållet översatt till svenska:
-
-```yaml
 # Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
 # Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
 # Copyright (c) 2023 Jean-Philippe Morissette https://github.com/JPMorissette
@@ -239,6 +236,4 @@ cookie_consent:
         Tillåter lagring relaterad till personalisering (t.ex. videorekommendationer).
       security_storage: >
         Tillåter lagring relaterad till säkerhet (t.ex. autentiseringsfunktion, bedrägeribekämpning och andra användarskyddssystem).
-```
-
-Detta behåller samma struktur och innehåll som det ursprungliga YAML-filen, men översatt till svenska.
+        
