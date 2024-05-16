@@ -6,12 +6,12 @@
 lng:
   name: svenska
   # baserat på ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-  code: sv
+  code: se
   # specifikt nödvändigt för open-graph meta og:locale. Om open_graph eller html_lng_with_country_code inte är aktiverat i _data/conf/main.yml, är det inte nödvändigt.
   # För html-taggar kan du aktivera eller inaktivera med html_lng_with_country_code definierat i _data/conf/main.yml
   # baserat på ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: SE
-  switch_title: Sv
+  switch_title: Se
   offer:
     title: Språk
     msg_page: Visa denna sida på svenska.
@@ -236,4 +236,3 @@ cookie_consent:
         Tillåter lagring relaterad till personalisering (t.ex. videorekommendationer).
       security_storage: >
         Tillåter lagring relaterad till säkerhet (t.ex. autentiseringsfunktion, bedrägeribekämpning och andra användarskyddssystem).
-        
