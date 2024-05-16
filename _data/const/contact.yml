@@ -37,10 +37,10 @@ youtube:
 facebook:
   icon: "fa fa-facebook"
   url: "https://www.facebook.com"
-Orcid:
+orcid:
   icon: "fa fa-orcid"
   url: "https://orcid.org/"
-GoogleScholar:
+googlescholar:
   icon: "fa fa-google-scholar"
   url: "https://scholar.google.com/citations?user="
 # add your new contact

@@ -14,18 +14,16 @@
   <h3>{{ site.data.lang[lng].navigation.contact_header }}</h3>
   <ul>
   {%- for accounts in site.data.owner[lng].contacts -%}
-    {%- assign account_var = accounts | first %}
-    {%- assign account_key = account_var[0] %}
-    {%- assign account_username = account_var[1] %}
+    {%- assign account_var = accounts | first %}{% assign account_key = account_var[0] %}{% assign account_username = account_var[1] -%}
     {%- assign contact_const = site.data.const.contact[account_key] -%}
     {%- assign icon_first_chr = nil -%}
     {%- assign contact_icon_tag = nil -%}
     {%- assign icon_first_chr = contact_const.icon | slice: 0 -%}
     {%- if contact_const.icon contains 'http://' or contact_const.icon contains 'https://' or icon_first_chr == '/' %}
       {%- capture contact_icon_tag -%} <img src="{{ contact_const.icon }}" /> {%- endcapture %}
-    {%- else -%}
+    {% else %}
       {%- capture contact_icon_tag -%} <i class="{{ contact_const.icon }}" aria-hidden="true"></i> {%- endcapture %}
-    {%- endif -%}
+    {% endif -%}
     <li>
     {%- if account_key == 'email' -%}
       {%- assign _email = account_username | split: '@' %}
@@ -42,11 +40,11 @@
       {%- endif -%}
 
       {%- if mastodon_rel_tag_attr_value != nil or site.data.conf.main.contacts_open_in_new_tab == true -%}
-        {%- capture contact_rel_tag_attr -%} {{ mastodon_rel_tag_attr_value }} {{ contact_new_tab_rel_tag_attr_value }} {%- endcapture %}
+        {%- capture contact_rel_tag_attr -%} {{ mastodon_rel_tag_attr_value }} {{ contact_new_tab_rel_tag_attr_value }} {%- endcapture -%}
         {%- capture contact_rel_tag_attr -%} rel="{{ contact_rel_tag_attr | strip }}" {%- endcapture -%}
       {%- endif -%}
 
-      {%- assign tag_url = contact_const.url | append: account_username -%}
+      {%- assign tag_url = contact_const.url | append:'/' | append: account_username -%}
       <a href="{{ tag_url }}" {{ effect_contacts_button }} {{ contact_new_tab_tag_attr }} {{ contact_rel_tag_attr }}>{{ contact_icon_tag }}</a>
     {%- endif -%}
     </li>
