@@ -38,7 +38,12 @@ img: ":about.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+<!-- Add your content below -->
 
-{{ website_info_text_second }}
+# Welcome to My Website
+
+Welcome to my personal website. Here you'll find information about my projects, blog posts, and more.
+
+## About Me
+
+I am a software developer with a passion for creating web applications and learning new technologies.
