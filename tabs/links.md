@@ -41,7 +41,7 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Links test"
+    header: "Teaching"
     info: "I am teaching solar energy and machine learning at Mälardalen University in Sweden."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
