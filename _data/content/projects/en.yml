@@ -15,16 +15,16 @@ page_data:
     - title: "Agrivoltaics in Skåne"
       type: id_solbrukskane
       color: "#62b462"
-    - title: "MATRIX - Evaluation of the first agrivoltaic systems facility in Sweden"
+    - title: "MATRIX "
       type: id_matrix
       color: "#62b462"
-    - title: "Optimized design of agrivoltaic systems in Sweden (Opti-APV)"
+    - title: "Opti-APV"
       type: id_optiAPV
       color: "#62b462"
-    - title: "Improving agrivoltaic systems performances with spectrally selective solar cells"
+    - title: "SSSC"
       type: id_spectral
       color: "#62b462"
-    - title: "Solar energy research center Sweden (SOLVE)"
+    - title: "SOLVE"
       type: id_SOLVE
       color: "#62b462"
 
