@@ -166,6 +166,10 @@ projects:
   read_more_text: Read more
   read_less_text: Read less
 
+cv:
+  title: CV
+  button_name: CV
+
 # for privacy-policy layout
 privacy-policy:
   title: &privacy_policy_title Privacy policy
