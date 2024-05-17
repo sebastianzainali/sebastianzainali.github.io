@@ -58,27 +58,5 @@ page_data:
       title: "ERA318 - Simulations and forecasting of electricity markets"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA318"
       info: "Lectures on the commercial PV software PVsyst teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
-    - type: id_jekyiiliquid
-      title: "ERA306 - Sustainable Energy Systems - Advanced Studies"
-      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA306"
-      info: "This course has the same lectures at the same time as ERA318 on the commercial PV software PVsyst teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
-    - type: id_jekyiiliquid
-      title: "ERA217 - Introduction to sustainable energy system"
-      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA217"
-      info: "A more simple lecture on how to use PVsyst to teach the students how to develop a simple project and obtain the economics."
-    - type: id_jekyiiliquid
-      title: "ERA125 - Solar energy"
-      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA125"
-      info: "In this course the simple lecture on how to use PVsyst is used. Additionally, experimental lecture is done with the students by 
-      coupling two solar modules in series/parallel to create the IV-curve with our lamps and variable resistance."
-    - type: id_jekyiiliquid
-      title: "MTK337- Multivariate data analysis in engineering"
-      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=MTK337"
-      info: "A lecture on recurrent neural network, long-short term memory (LSTM) and bi-LSTM including a practical exercise by forecasting the
-      solar electricity production."
-    - type: id_jekyiiliquid
-      title: "ERA403- Degree project in energy engineering"
-      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA403"
-      info: "I am a supervisor for degree projects focused on solar energy applications."
 
 ---
