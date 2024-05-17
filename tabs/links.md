@@ -46,7 +46,7 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
+    - title: "Courses at Malardalen University"
       type: id_jekyiiliquid
       color: "gray"
 
@@ -55,24 +55,28 @@ page_data:
     -
     # jekyiiliquid
     - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
+      title: "ERA318 - Simulations and forecasting of electricity markets"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA318"
       info: "Transform your plain text into static websites and blogs."
     - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
+      title: "ERA306 - Sustainable Energy Systems - Advanced Studies"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA306"
       info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
     - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
+      title: "ERA217 - Introduction to sustainable energy system"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA217"
       info: "Liquid for Designers wiki on GitHub."
     - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
+      title: "ERA125 - Solar energy"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA125"
       info: "Liquid for Programmers wiki on GitHub."
     - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
+      title: "MTK337- Multivariate data analysis in engineering"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=MTK337"
+      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub."
+    - type: id_jekyiiliquid
+      title: "ERA403- Degree project in energy engineering"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA403"
       info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub."
 
 ---
