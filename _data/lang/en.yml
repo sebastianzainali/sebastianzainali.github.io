@@ -159,6 +159,13 @@ links:
   link_text: Course Code
   info_text: Info
 
+# for links layout
+presentations:
+  title: Teaching
+  button_name: Teaching
+  link_text: Course Code
+  info_text: Info
+
 # for projects layout
 projects:
   title: Projects
