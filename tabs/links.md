@@ -46,7 +46,7 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Courses at Malardalen University"
+    - title: "Courses at Mälardalen University"
       type: id_jekyiiliquid
       color: "gray"
 
