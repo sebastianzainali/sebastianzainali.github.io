@@ -36,7 +36,7 @@
 
     {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%}
       {%- capture icon_tag -%}
-        <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i>
+        <i class="{{ 'fa fa-file-pdf-o' }}{{ button_icon }}" aria-hidden="true"></i>
       {%- endcapture -%}
     {%- endif -%}
     <li><a href="{{ site.baseurl }}{{ pdf_url }}" class="{{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>

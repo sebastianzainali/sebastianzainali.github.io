@@ -196,7 +196,7 @@ side_and_top_nav_buttons:
   - about:
     icon: "fa fa-user-o"
   - cv:
-    icon: "fa fa-user-o"
+    icon: "fa fa-file-pdf-o"
     #url: "/assets/CV_Sebastian_Zainali_svenska.pdf"
 
 # side nav toggle feature
