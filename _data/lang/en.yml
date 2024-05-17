@@ -141,10 +141,10 @@ home:
   new_posts_show_more_button: View More ...
 
 # for archives layout
-archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+#archives:
+#  title: Archive
+#  button_name: Archive
+# page_header: Archive
 
 # for about layout
 about:
@@ -154,9 +154,9 @@ about:
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
-  link_text: Web site
+  title: Teaching
+  button_name: Teaching
+  link_text: Course Code
   info_text: Info
 
 # for projects layout
