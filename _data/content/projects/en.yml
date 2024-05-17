@@ -15,7 +15,7 @@ page_data:
     - title: "Example"
       type: id_example
       color: "gray"
-    - title: "Picture"
+    - title: "Solbruk i Skåne"
       type: id_solbrukskane
       color: "#62b462"
     - title: "Quote"
@@ -26,10 +26,10 @@ page_data:
     # picture
     - type: id_solbrukskane
       project_name: "Agrivoltaics in Skåne"
-      project_excerpt: "Solbruk i Skåne"
+      project_excerpt: ""
       #img: ":project2_thumb.jpg"
       #img_title: "img title2"
-      date: "2023-09-01 - 2027-12-31"
+      date: "2023-09-01"
       post: |
         The project aims to explore the efficient simultaneous production of electricity and food on the same land through extensive collaboration with representatives from academia, business, and the public sector. While tests from other countries have shown positive results, specific knowledge is needed for the application of agrivoltaics in the Skåne region. The plan involves designing and constructing a physical test facility in Skåne to practically investigate and demonstrate the effective combination of agriculture and solar power under local conditions.
         A key component of the project is to demonstrate, generate, and disseminate knowledge to business promoters and, subsequently, to companies in both the energy and food sectors. This will include suggestions on resolving the conflict between food production and solar power generation on Skåne farmland. The primary goal of the project is to showcase and assess the efficient implementation of agrivoltaics in the Skåne region.
