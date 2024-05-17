@@ -196,8 +196,8 @@ side_and_top_nav_buttons:
   - about:
     icon: "fa fa-user-o"
   - cv:
-    icon: "fa fa-file-pdf-o"
-    url: "/assets/CV_Sebastian_Zainali_svenska.pdf"
+    icon: "fa fa-user-o"
+    #url: "/assets/CV_Sebastian_Zainali_svenska.pdf"
 
 # side nav toggle feature
 # when side nav is not visible and if you click top nav toggle button, side nav slides from left to right (disables top nav buttons)
