@@ -12,15 +12,21 @@ page_data:
     back_color: "lightblue"
 
   category:
-    - title: "Example"
-      type: id_example
-      color: "gray"
-    - title: "Solbruk i Skåne"
+    - title: "Agrivoltaics in Skåne"
       type: id_solbrukskane
       color: "#62b462"
-    - title: "Quote"
-      type: id_quote
-      color: "#2FD0ED"
+    - title: "MATRIX - Evaluation of the first agrivoltaic systems facility in Sweden"
+      type: id_matrix
+      color: "#62b462"
+    - title: "Optimized design of agrivoltaic systems in Sweden (Opti-APV)"
+      type: id_optiAPV
+      color: "#62b462"
+    - title: "Improving agrivoltaic systems performances with spectrally selective solar cells"
+      type: id_spectral
+      color: "#62b462"
+    - title: "Solar energy research center Sweden (SOLVE)"
+      type: id_SOLVE
+      color: "#62b462"
 
   list:
     # picture
@@ -33,33 +39,64 @@ page_data:
       post: |
         The project aims to explore the efficient simultaneous production of electricity and food on the same land through extensive collaboration with representatives from academia, business, and the public sector. While tests from other countries have shown positive results, specific knowledge is needed for the application of agrivoltaics in the Skåne region. The plan involves designing and constructing a physical test facility in Skåne to practically investigate and demonstrate the effective combination of agriculture and solar power under local conditions.
         A key component of the project is to demonstrate, generate, and disseminate knowledge to business promoters and, subsequently, to companies in both the energy and food sectors. This will include suggestions on resolving the conflict between food production and solar power generation on Skåne farmland. The primary goal of the project is to showcase and assess the efficient implementation of agrivoltaics in the Skåne region.
-    # quote
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "William Shakespeare"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
-      date: "2021-05-27"
+        # picture
+    - type: id_matrix
+      project_name: "MATRIX - Evaluation of the first agrivoltaic systems facility in Sweden"
+      project_excerpt: ""
+      #img: ":project2_thumb.jpg"
+      #img_title: "img title2"
+      date: "2023-02-28"
       post: |
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Albert Einstein"
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
-      date: "2021-06-08"
+        Agrivoltaic systems are expected to play a crucial role in future energy systems by resolving the conflict between land use for energy and food production, which is typical of conventional solar parks. This research project builds on the pioneering work funded by the Swedish Energy Agency to establish the first experimental agrivoltaic system in Sweden.
+        Theoretically, the project aims to enhance the accuracy of APV models by developing advanced algorithms and tools to better predict the interactions between solar radiation distribution at the crop level, microclimate, and the conversion of solar energy into electricity and biomass under various APV configurations.
+        From a practical and industrial standpoint, the project seeks to create algorithms for the dynamic simulation, optimal design, and operation of APVs, particularly those with solar tracking systems.
+    - type: id_optiAPV
+      project_name: "Optimized design of agrivoltaic systems in Sweden (Opti-APV)"
+      project_excerpt: ""
+      img: ":OptiAPV.jpg"
+      img_title: "img title2"
+      date: "2022-09-01"
       post: |
-        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+        The primary goal of this project is to foster the development of a robust and internationally competitive agrivoltaic (APV) industry in Sweden while preserving agricultural activities. This will be achieved by developing specialized tools for the optimal design, simulation, optimization, and placement of agrivoltaic systems and by creating a comprehensive dataset for their implementation and operation.
+
+        Specific objectives of this project, aligned with the main research questions, include:
+
+        Evaluate Design Effects: Assess the impact of various agrivoltaic system designs on different crop types by comparing data from both small-scale and large-scale agrivoltaic systems.
+        Develop Simulation Tools: Create advanced simulation and optimization tools by conducting dedicated lab-based and field-based crop experiments to study the photosynthetic rate response to varying radiation levels.
+        Investigate Economics: Analyze the economic aspects of agrivoltaic systems, considering projects of different scales, designs, and technological integrations, to develop viable business models for technology adoption.
+        Identify Optimal Locations: Use a GIS approach to determine feasible and optimized locations for APV systems and scale up the model to assess the potential for APV implementation nationwide through spatially explicit simulations and optimizations.
+      - type: id_spectral
+      project_name: "Improving agrivoltaic systems performances with spectrally selective solar cells"
+      project_excerpt: ""
+      #img: ":OptiAPV.jpg"
+      #img_title: "img title2"
+      date: "2022-08-01"
+      post: |
+        The primary goal of this project is to enhance understanding of how semi-transparent spectrally selective PV modules, typically used in building-integrated projects or greenhouses, can be utilized and affect the performance of open-field agrivoltaic systems. This will be achieved by developing and validating a unique tool for simulating, optimizing, and designing agrivoltaic systems with these advanced PV modules.
+
+        The project aims to achieve its main purpose and answer key research questions through two specific objectives:
+
+        Establish a small-scale agrivoltaic system using spectrally selective solar cells at Kärrbo Prästgård.
+        Significantly improve the model developed in previous studies to perform techno-economic simulations and optimizations of agrivoltaic systems based on spectrally selective solar cells.
+
+        The proposed research project will employ the following methods:
+
+        Conduct a literature review on the use of spectrally selective solar cells for agrivoltaic applications.
+        Engage with project supporters to understand industrial and agricultural needs.
+        Establish a small-scale, cutting-edge experiment.
+        Develop an advanced model for simulating and optimizing agrivoltaic systems based on spectrally selective solar cells.
+      - type: id_SOLVE
+      project_name: "Solar energy research center Sweden (SOLVE)"
+      project_excerpt: ""
+      #img: ":OptiAPV.jpg"
+      #img_title: "img title2"
+      date: "2022-01-01"
+      post: |
+        The SOLVE research projects are divided into seven interconnected themes, each addressing different aspects of expanding PV electricity within the Swedish energy system. Primarily conducted by PhD students with guidance from a consortium of mentors, SOLVE also includes shorter projects involving master students and senior researchers. SOLVE is one of 11 new centres of excellence supported by the Swedish Energy Agency, with funding equally provided by academic partners, public and private sector partners, and the Swedish Energy Agency.
+        External project members include Uppsala University (coordinating partner), Swedish University of Agricultural Sciences (SLU), Karlstad University, Dalarna University, and the Research Institutes of Sweden (RISE). The project is directed by Marika Edoff and deputy director Jonathan Scragg, both from Uppsala University.
+
+        SOLVE aims to build robust partnerships between Swedish researchers and a diverse group of stakeholders in solar electricity, ranging from product developers to system owners, grid operators, and regional governments. The goals are to:
+
+        Generate knowledge to promote and sustain the growth of PV markets in Sweden.
+        Disseminate this knowledge to a broad network of stakeholders in the PV sector.
+        Educate and connect competent individuals with business and industry.
