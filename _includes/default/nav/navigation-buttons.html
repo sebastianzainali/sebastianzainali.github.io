@@ -28,6 +28,19 @@
     {%- assign _pages = _pages | push: _tmp_page -%}
   {%-endif-%}
 
+  {%- if button_key == "cv" -%}
+    {%- assign button_value = button[button_key] %}
+    {%- assign button_icon = button_value.icon -%}
+    {%- assign button_name = site.data.lang[lng][button_key].button_name -%}
+    {%- assign pdf_url = site.data.lang[lng][button_key].pdf_url -%}
+
+    {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%}
+      {%- capture icon_tag -%}
+        <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i>
+      {%- endcapture -%}
+    {%- endif -%}
+    <li><a href="{{ site.baseurl }}{{ pdf_url }}" class="{{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>
+  {%- else -%}
   {%- for _page in _pages -%}
     {%- comment %} clear values {% endcomment -%}
     {%- assign icon_tag = '' -%}{%- assign active_class = '' -%}{%- assign active_style = '' -%}
@@ -41,19 +54,8 @@
     {%- assign button_name = _page.button_name | default: site.data.lang[lng][button_key].button_name -%}
 
     {%- comment %} enable icons if it is set to true {% endcomment -%}
-
-
-    {%- if button_key == "cv" -%}
-    {%- assign pdf_url = site.data.lang[lng][button_key].pdf_url -%}
-    {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%}
-      {%- capture icon_tag -%}
-        <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i>
-      {%- endcapture -%}
-    {%- endif -%}
-    <li><a href="{{ site.baseurl }}{{ pdf_url }}" class="{{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>
-    {%- else -%}
     {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%} {%- capture icon_tag -%} <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i> {%- endcapture -%} {%- endif -%}
     <li {{active_style}}><a href="{{ site.baseurl }}{{ _page.url }}" class="{{ active_class }} {{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>
-    {%- endif -%}
-    {%- endfor -%}
+  {%- endfor -%}
+  {%- endif -%}
 {%- endfor -%}
