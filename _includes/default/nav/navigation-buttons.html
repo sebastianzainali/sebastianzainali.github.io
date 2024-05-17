@@ -7,7 +7,7 @@
 {%- include multi_lng/get-pages-by-lng.liquid pages = site.html_pages -%}
 
 {%- comment %} get blog page {% endcomment -%}
-{%- assign blogpage =  site.html_pages | where_exp: "item", "item.layout == 'post-list'" -%}
+{%- assign blogpage = site.html_pages | where_exp: "item", "item.layout == 'post-list'" -%}
 
 {%- for tmp_page in blogpage -%}
   {%- include multi_lng/get-lng-by-url.liquid url = tmp_page.url -%}
@@ -17,31 +17,51 @@
 {%- comment %} add buttons {% endcomment -%}
 {%- for button in site.data.conf.main.side_and_top_nav_buttons -%}
   {%- assign button_key = button | first | first %}
-  {%- comment %} get page with layout {% endcomment -%}
-  {%- assign _pages = lng_pages | where_exp: "item", "item.layout == button_key" -%}
+  {%- assign button_value = button[button_key] %}
 
-  {%- comment %} to avoid multiple post-list pages {% endcomment -%}
-  {%- if site.paginate > 0 and button_key == "post-list" and _pages.size > 1 -%}
-    {%- assign _tmp_page = _pages[0] -%}
-    {% comment %} create an empty array {% endcomment -%}
-    {%- assign _pages = '' | split: '' -%}
-    {%- assign _pages = _pages | push: _tmp_page -%}
-  {%-endif-%}
+  {%- if button_value.url -%}
+    {%- comment %} External link logic {% endcomment -%}
+    <li><a href="{{ button_value.url }}" target="_blank" class="{{ include.effect }}">
+      {%- if site.data.conf.main.side_and_top_nav_button_icons == true and button_value.icon -%}
+        <i class="{{ 'fa-fw ' }}{{ button_value.icon }}" aria-hidden="true"></i>
+      {%- endif -%}
+      {{ button_key | capitalize }}
+    </a></li>
+  {%- else -%}
+    {%- comment %} Internal link logic {% endcomment -%}
+    {%- assign _pages = lng_pages | where_exp: "item", "item.layout == button_key" -%}
 
-  {%- for _page in _pages -%}
-    {%- comment %} clear values {% endcomment -%}
-    {%- assign icon_tag = '' -%}{%- assign active_class = '' -%}{%- assign active_style = '' -%}
+    {%- if site.paginate > 0 and button_key == "post-list" and _pages.size > 1 -%}
+      {%- assign _tmp_page = _pages[0] -%}
+      {%- assign _pages = '' | split: '' -%}
+      {%- assign _pages = _pages | push: _tmp_page -%}
+    {%- endif -%}
 
-    {%- comment %} set active page class to display current page {% endcomment -%}
-    {%- if _page.url == page.url or _page.url == blogpage.url and page.layout == 'post-list' or page.layout == 'post' -%}{%- assign active_class = 'active-page' -%} {%- endif -%}
-    {%- if _page.url == page.url or _page.url == blogpage.url and page.layout == 'post-list' -%}{%- assign active_style = 'style="pointer-events: none;"' -%} {%- endif -%}
+    {%- for _page in _pages -%}
+      {%- assign icon_tag = '' -%}
+      {%- assign active_class = '' -%}
+      {%- assign active_style = '' -%}
 
-    {%- comment %} check for override {% endcomment -%}
-    {%- assign button_icon = _page.icon | default: button.icon -%}
-    {%- assign button_name = _page.button_name | default: site.data.lang[lng][button_key].button_name -%}
+      {%- if _page.url == page.url or _page.url == blogpage.url and page.layout == 'post-list' or page.layout == 'post' -%}
+        {%- assign active_class = 'active-page' -%}
+      {%- endif -%}
+      {%- if _page.url == page.url or _page.url == blogpage.url and page.layout == 'post-list' -%}
+        {%- assign active_style = 'style="pointer-events: none;"' -%}
+      {%- endif -%}
 
-    {%- comment %} enable icons if it is set to true {% endcomment -%}
-    {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%} {%- capture icon_tag -%} <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i> {%- endcapture -%} {%- endif -%}
-    <li {{active_style}}><a href="{{ site.baseurl }}{{ _page.url }}" class="{{ active_class }} {{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>
-  {%- endfor -%}
+      {%- assign button_icon = _page.icon | default: button_value.icon -%}
+      {%- assign button_name = _page.button_name | default: site.data.lang[lng][button_key].button_name -%}
+
+      {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%}
+        {%- capture icon_tag -%}
+          <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i>
+        {%- endcapture -%}
+      {%- endif -%}
+
+      <li {{active_style}}><a href="{{ site.baseurl }}{{ _page.url }}" class="{{ active_class }} {{ include.effect }}">
+        {{ icon_tag }}{{ button_name }}
+      </a></li>
+    {%- endfor -%}
+  {%- endif -%}
 {%- endfor -%}
+
