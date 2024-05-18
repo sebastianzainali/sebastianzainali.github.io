@@ -30,20 +30,7 @@
   --main-container-margin-top-bottom: 0;
   --main-container-margin-left-right: auto;
 }
-.main-container {
-  display: flex;
-  justify-content: var(--main-container-justify-content);
-  align-items: var(--main-container-align-items);
-  min-height: var(--main-container-min-height);
-  margin: var(--main-container-margin-top-bottom) var(--main-container-margin-left-right);
-}
 
-.multipurpose-container {
-  max-width: var(--main-container-max-width);
-  width: 100%;
-  padding: var(--main-container-margin);
-  box-sizing: border-box;
-}
 {% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}
   @import url({{ site.data.conf.main.google_font_style_url }});
 {% endif %}
