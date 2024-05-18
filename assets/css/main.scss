@@ -24,11 +24,6 @@
   /* space between containers */
   --multipurpose-container-margin-bottom: 20px;
   --footer-height: 27px;
-  --main-container-justify-content: center;
-  --main-container-align-items: center;
-  --main-container-min-height: 100vh;
-  --main-container-margin-top-bottom: 0;
-  --main-container-margin-left-right: auto;
 }
 
 {% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}
