@@ -25,6 +25,14 @@
   --multipurpose-container-margin-bottom: 20px;
   --footer-height: 27px;
 }
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: var(--main-container-padding-bottom);
+  max-width: var(--main-container-max-width);
+  width: 100%;
+  box-sizing: border-box;
+}
 
 {% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}
   @import url({{ site.data.conf.main.google_font_style_url }});
