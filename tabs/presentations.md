@@ -46,17 +46,19 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Courses at Mälardalen University"
-      type: id_jekyiiliquid
+    - title: "Presentations"
+      type: id_pres
+      color: "gray"
+    - title: "Conferences"
+      type: id_conf
       color: "gray"
 
 
   list:
     -
-    # jekyiiliquid
-    - type: id_jekyiiliquid
+    # id_pres
+    - type: id_pres
       title: "ERA318 - Simulations and forecasting of electricity markets"
-      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA318"
       info: "Lectures on the commercial PV software PVsyst teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
 
 ---

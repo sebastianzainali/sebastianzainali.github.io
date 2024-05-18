@@ -41,14 +41,17 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Teaching"
-    info: "I am teaching solar energy and machine learning at Mälardalen University in Sweden."
+    header: "Research activities"
+    info: "On this page, you can find information about all my ongoing teaching activities in solar energy and machine learning at Mälardalen University in Sweden. Additionally, my conference and other research activities are also displayed."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Courses at Mälardalen University"
+    - title: "Teaching at Mälardalen University"
       type: id_jekyiiliquid
       color: "gray"
+    - title: "Conferences, seminars, and workshops"
+      type: id_conf
+      color: "green"
 
 
   list:
@@ -80,5 +83,21 @@ page_data:
       title: "ERA403- Degree project in energy engineering"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA403"
       info: "I am a supervisor for degree projects focused on solar energy applications."
-
+    # id_conf
+    - type: id_conf
+      title: "Agrivoltaics Conference 2022 - Piacenza, Italy"
+      url: "https://www.tib-op.org/ojs/index.php/agripv/index."
+      info: "Held a poster presentation regarding direct and diffuse shading for agrivoltaic systems."
+    - type: id_conf
+      title: "NextGems Hackathon 2022 - Vienna, Austria"
+      url: "https://nextgems-h2020.eu/hackathon/"
+      info: "I worked with the SR-ESMs IFS and ICON models to enhance renewable energy systems. Initially, I analyzed the data to evaluate the accuracy of current solar irradiance estimates for photovoltaic (PV) modeling. Additionally, I developed a gridded model to calculate the PV production potential for the entire region."
+    - type: id_conf
+      title: "Agrivoltaic workshop 2022 - Västerås, Sweden"
+      url: "https://www.mdu.se/en/malardalen-university/research/research-projects/evaluation-of-the-first-agrivoltaic-system-in-sweden"
+      info: "I presented future directions based on insights gained from our initial project in Sweden, which focused on agrivoltaic systems. The emphasis was on modeling and optimisation strategies."
+    - type: id_conf
+      title: "Agrivoltaics Conference 2023 - Daegu, South Korea"
+      url: "https://www.agrivoltaics-conference.org/history-and-past-conferences"
+      info: "I delivered a poster presentation on 3D view factor modeling for vertical, single-axis, and dual-axis agrivoltaic systems, highlighting methods for estimating electricity production. A conference proceeding were accepted and published on it."
 ---
