@@ -15,9 +15,9 @@ lng:
   flag: se.png
   offer:
     title: Språk
-    msg_page: Voir cette page en français.
+    msg_page: Se den här sidan på franska.
     # if page translation is not available, use this.
-    msg_site: Aller à l'accueil français
+    msg_site: Gå till den franska hemsidan
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
@@ -25,39 +25,39 @@ date:
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Janv, Févr, Mars, Avr, Mai, Juin, Juil, Août, Sept, Oct, Nov, Déc]
+  months: [Jan, Feb, Mar, Apr, Maj, Jun, Jul, Aug, Sep, Okt, Nov, Dec]
 
 not_found:
-  header: Page non trouvée
-  line1: La page que vous avez demandée est introuvable.
-  line2: Essayez le menu ou la recherche sur le site si disponible.
+  header: Sidan hittades inte
+  line1: Sidan du sökte kunde inte hittas.
+  line2: Försök med menyn eller sök på webbplatsen om det är tillgängligt.
 
-no_translation_tooltip: Pas de traduction
+no_translation_tooltip: Ingen översättning
 
 navigation:
-  contact_header: Contact
+  contact_header: Kontakt
 
-color_scheme_switch_tooltip: Schéma de couleur
+color_scheme_switch_tooltip: Färgtema
 
 search:
-  placeholder: Recherche
-  noResultText: Aucun résultat trouvé.
+  placeholder: Sök
+  noResultText: Inga resultat funna.
 
 image_viewer:
-  load_error: "L'image n'a pas pu être chargée."
+  load_error: "Bilden kunde inte laddas."
 
 copyright:
-  additional_text: " Tous les droits sont réservés."
+  additional_text: " Alla rättigheter förbehållna."
 
 creative_commons:
-  some_rights_reserved: Certains droits réservés.
+  some_rights_reserved: Vissa rättigheter förbehållna.
   # check _data/owner/[language].yml for license type.
-  by: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution 4.0 International.
-  by-nd: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NoDerivatives 4.0 International.
-  by-sa: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-ShareAlike 4.0 International.
-  by-nc: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial 4.0 International.
-  by-nc-nd: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
-  by-nc-sa: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+  by: Om inte annat anges, är innehållet på denna webbplats licensierat under Creative Commons Attribution 4.0 International.
+  by-nd: Om inte annat anges, är innehållet på denna webbplats licensierat under Creative Commons Attribution-NoDerivatives 4.0 International.
+  by-sa: Om inte annat anges, är innehållet på denna webbplats licensierat under Creative Commons Attribution-ShareAlike 4.0 International.
+  by-nc: Om inte annat anges, är innehållet på denna webbplats licensierat under Creative Commons Attribution-NonCommercial 4.0 International.
+  by-nc-nd: Om inte annat anges, är innehållet på denna webbplats licensierat under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
+  by-nc-sa: Om inte annat anges, är innehållet på denna webbplats licensierat under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
 
 # for 404 layout
 not-found:
@@ -67,171 +67,168 @@ not-found:
 post:
   read_time:
     unit: " min"
-    text: " de lecture"
+    text: " lästid"
     # c for char w for word
     word_char: w
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Article plus ancien"
-    newer_post: "Article plus récent →"
-    first_post: "Début"
-    last_post: "Dernier"
+    older_post: "← Äldre artikel"
+    newer_post: "Nyare artikel →"
+    first_post: "Första"
+    last_post: "Senaste"
   comments:
-    noscript: Veuillez activer JavaScript pour afficher les commentaires.
+    noscript: Vänligen aktivera JavaScript för att visa kommentarer.
     disqus:
-      count_title: Commentaires
-      click_to_load: "Charger les commentaires"
+      count_title: Kommentarer
+      click_to_load: "Ladda kommentarer"
       consent:
-        title: Commentaires (Disqus.com)
+        title: Kommentarer (Disqus.com)
         text: >
-          La fonctionnalité de commentaire est hébergée par un tiers. En affichant le contenu externe, vous acceptez les $terms et la $privacy_policy de disqus.com.
-          <br>Si vous préférez désactiver la publicité ciblée, ouvrez $settings_link et cliquez sur le bouton "désactiver" et fermez. Revenez ici et chargez les commentaires.
-        terms_link_text: Conditions d'utilisation
-        privacy_link_text: Politique de confidentialité
-        settings_link_text: ce lien
+          Kommentarfunktionen tillhandahålls av en tredje part. Genom att visa externt innehåll godkänner du disqus.com $terms och $privacy_policy.
+          <br>Om du föredrar att inaktivera riktade annonser, öppna $settings_link och klicka på knappen "inaktivera" och stäng. Återvänd hit och ladda kommentarerna.
+        terms_link_text: Användarvillkor
+        privacy_link_text: Integritetspolicy
+        settings_link_text: denna länk
         button:
-          load_once: Afficher uniquement cette fois
-          load_and_do_not_ask_again: Toujours montrer
+          load_once: Visa bara denna gång
+          load_and_do_not_ask_again: Visa alltid
+
   table_of_contents:
-    heading: Contenu
+    heading: Innehåll
     tooltip:
-      move: Glisser pour déplacer
-      close: Fermer
+      move: Dra för att flytta
+      close: Stäng
   share:
-    heading: Partager sur
-    link_copied: Lien copié !
+    heading: Dela på
+    link_copied: Länk kopierad!
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
       facebook: Facebook
       telegram: Telegram
       linkedin: LinkedIn
-      email: e-mail
-      copy_link: Copier le lien
+      email: e-post
+      copy_link: Kopiera länk
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Blogg
+  button_name: Blogg
   upside_down_tabs:
     tab:
-      all: Toute
-      categories: Catégories
-      tags: Mots clés
-      years: Années
-      clear: Retirer
-      close: Fermer
+      all: Alla
+      categories: Kategorier
+      tags: Taggar
+      years: År
+      clear: Ta bort
+      close: Stäng
       tooltip:
-        clear: Retirer
-        close: Fermer
+        clear: Ta bort
+        close: Stäng
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Étiquette
-        category: Catégorie
-        year: Année
+        tags: Tagg
+        category: Kategori
+        year: År
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Bienvenue
-  button_name: Accueil
-  new_posts_title: Nouveaux articles
-  new_posts_show_more_button: Voir plus ...
+  title: Välkommen
+  button_name: Hem
+  new_posts_title: Nya artiklar
+  new_posts_show_more_button: Visa mer ...
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: Arkiv
+  button_name: Arkiv
+  page_header: Arkiv
 
 # for about layout
 about:
-  title: À propos
-  button_name: À propos
-  email_title: e-mail
+  title: Om
+  button_name: Om
+  email_title: e-post
 
 # for links layout
 links:
-  title: Liens
-  button_name: Liens
-  link_text: Site Internet
+  title: Länkar
+  button_name: Länkar
+  link_text: Webbplats
   info_text: Info
 
 # for projects layout
 projects:
-  title: Projets
-  button_name: Projets
-  read_more_text: En savoir plus
-  read_less_text: Réduire
+  title: Projekt
+  button_name: Projekt
+  read_more_text: Läs mer
+  read_less_text: Visa mindre
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Politique de confidentialité
+  title: &privacy_policy_title Integritetspolicy
 
 # constants to be replaced for
 constants:
-  greetings: Bonjour
-  welcome: Bienvenue
-  sample: Goûter
+  greetings: Hej
+  welcome: Välkommen
+  sample: Prova
 
 # for contact form
 contact_form:
-  button_name: Formulaire de contact
-  formLoadingText: Chargement du formulaire de contact...
+  button_name: Kontaktformulär
+  formLoadingText: Laddar kontaktformulär...
 
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Paramètres des cookies
+  side_nav_setting_button_tooltip: &cookie_settings Cookie-inställningar
   panel_bar:
     msg: >
-      Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
-      Ils seront activés avec votre accord.
-    privacy_msg: Vérifiez la $privacy_link.
+      Denna webbplats använder cookies för att optimera funktionerna på webbplatsen.
+      De kommer att aktiveras med ditt samtycke.
+    privacy_msg: Kontrollera $privacy_link.
     buttons:
-      accept: &accept_button Autoriser tout
-      settings: Personnaliser
-      deny: &deny_button Refuser
+      accept: &accept_button Tillåt alla
+      settings: Anpassa
+      deny: &deny_button Avböj
   panel_settings:
     title: *cookie_settings
     msg: >
-      Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
-      Ils seront activés avec votre accord. Veuillez cliquer sur chaque élément ci-dessous pour la politique en matière de cookies.
-    privacy_msg: Vérifiez la $privacy_link.
+      Denna webbplats använder cookies för att optimera funktionerna på webbplatsen.
+      De kommer att aktiveras med ditt samtycke. Vänligen klicka på varje objekt nedan för cookie-policyn.
+    privacy_msg: Kontrollera $privacy_link.
     buttons:
       accept: *accept_button
-      save: Autoriser la sélection
+      save: Tillåt valda
       deny: *deny_button
-    always_active: Toujours actif
+    always_active: Alltid aktiva
     consent_types:
       necessary:
-        title: Cookies strictement nécessaires
+        title: Strikt nödvändiga cookies
         info: >
-          Ces cookies sont essentiels au fonctionnement du site Web et ne peuvent pas être désactivés.
-          Ils sont généralement définis lorsque la fonction du site, telle que la palette de couleurs, etc., est modifiée.
-          Ces cookies ne stockent aucune information personnellement identifiable.
+          Dessa cookies är nödvändiga för att webbplatsen ska fungera och kan inte stängas av.
+          De sätts vanligtvis endast som svar på åtgärder som du gör som innebär en begäran om tjänster, t.ex. att ställa in dina integritetsinställningar, logga in eller fylla i formulär.
+          Dessa cookies lagrar inte någon personligt identifierbar information.
           $gtag_info
       analytics:
-        title: Cookies de performance
+        title: Prestanda-cookies
         info: $gtag_info
       preferences:
-        title: Cookies de fonctionnalité
+        title: Funktionscookies
         info: $gtag_info
       advertising:
-        title: Cookies de ciblage et publicitaires
+        title: Riktade cookies
         info: $gtag_info
     gtag_info:
       # from https://support.google.com/tagmanager/answer/10718549#consent-types
       ad_storage: >
-        Permet le stockage (de cookies, par exemple) lié à la publicité.
+        Tillåter lagring (t.ex. av cookies) relaterade till annonsering.
       analytics_storage: >
-        Permet le stockage (de cookies, par exemple) lié à l'analyse (comme la durée des visites).
+        Tillåter lagring (t.ex. av cookies) relaterade till analys (t.ex. längd på besök).
       functionality_storage: >
-        Permet le stockage compatible avec la fonctionnalité du site ou de l'application (par exemple, les paramètres linguistiques).
-      personalization_storage: >
-        Permet le stockage lié à la personnalisation (par exemple, les recommandations de vidéos).
-      security_storage: >
-        Permet le stockage lié à la sécurité (par exemple, la fonctionnalité d'authentification, la prévention des fraudes et les autres systèmes de protection des utilisateurs).
+        Tillåter lagring som är kompatibel med webbplatsens eller appens funktionalitet (
