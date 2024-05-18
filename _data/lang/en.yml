@@ -154,17 +154,11 @@ about:
 
 # for links layout
 links:
-  title: Teaching
-  button_name: Teaching
-  link_text: Course Code
+  title: Activities
+  button_name: Activities
+  link_text: Activity
   info_text: Info
 
-# for links layout
-presentations:
-  title: Teaching
-  button_name: Teaching
-  link_text: Course Code
-  info_text: Info
 
 # for projects layout
 projects:

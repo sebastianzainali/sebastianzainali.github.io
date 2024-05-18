@@ -193,8 +193,6 @@ side_and_top_nav_buttons:
     icon: "fa fa-cog"
   - links:
     icon: "fa fa-graduation-cap"
-  - presentations:
-    icon: "fa fa-graduation-cap"
   - about:
     icon: "fa fa-user-o"
   - cv:
