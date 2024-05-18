@@ -1,0 +1,106 @@
+# du kan flytta detta innehåll till front matter av [language]/tabs/projects.md
+###########################################################
+#                Projectsida Data
+###########################################################
+page_data:
+  main:
+    header: "Projekt"
+    info: "Projekt som jag för närvarande är aktiv i."
+    text_color: "vit"
+    # om du inte vill använda bakgrundsbild, kommentera ut det. back_color kommer aktiveras.
+    img: ":projects-heading.jpg"
+    back_color: "ljusblå"
+
+  category:
+    - title: "Agrivoltaik i Skåne"
+      type: id_solbrukskane
+      color: "#62b462"
+    - title: "MATRIX"
+      type: id_matrix
+      color: "#62b462"
+    - title: "Opti-APV"
+      type: id_optiAPV
+      color: "#62b462"
+    - title: "SSSC"
+      type: id_spectral
+      color: "#62b462"
+    - title: "SOLVE"
+      type: id_SOLVE
+      color: "#62b462"
+
+  list:
+    # id_solbrukskane
+    - type: id_solbrukskane
+      project_name: "Agrivoltaik i Skåne"
+      project_excerpt: ""
+      #img: ":project2_thumb.jpg"
+      #img_title: "img title2"
+      date: "2023-09-01"
+      post: |
+        Projektet syftar till att utforska effektiv samtidig produktion av el och mat på samma mark genom omfattande samarbete med representanter från akademi, näringsliv och offentlig sektor. Tester från andra länder har visat positiva resultat, men specifik kunskap behövs för att tillämpa agrivoltaik i Skåne-regionen. Planen innefattar att designa och bygga en fysisk testanläggning i Skåne för att praktiskt undersöka och demonstrera den effektiva kombinationen av jordbruk och solenergi under lokala förhållanden.
+        En viktig del av projektet är att demonstrera, generera och sprida kunskap till affärsfrämjare och därefter till företag inom både energisektorn och livsmedelssektorn. Detta kommer att inkludera förslag på hur konflikten mellan livsmedelsproduktion och solenergiproduktion på skånska jordbruksmarker kan lösas. Projektets huvudmål är att visa och bedöma effektiv implementering av agrivoltaik i Skåne-regionen.
+    # id_matrix
+    - type: id_matrix
+      project_name: "MATRIX - Utvärdering av den första agrivoltaiska anläggningen i Sverige"
+      project_excerpt: ""
+      #img: ":project2_thumb.jpg"
+      #img_title: "img title2"
+      date: "2023-02-28"
+      post: |
+        Agrivoltaiska system förväntas spela en avgörande roll i framtida energisystem genom att lösa konflikten mellan markanvändning för energi- och livsmedelsproduktion, vilket är typiskt för konventionella solparker. Detta forskningsprojekt bygger på det banbrytande arbete som finansierats av Energimyndigheten för att etablera det första experimentella agrivoltaiska systemet i Sverige.
+        Teoretiskt syftar projektet till att förbättra noggrannheten i APV-modeller genom att utveckla avancerade algoritmer och verktyg för att bättre förutsäga interaktionerna mellan solstrålningsfördelning på grödnivå, mikroklimat och omvandling av solenergi till el och biomassa under olika APV-konfigurationer.
+        Ur praktisk och industriell synvinkel strävar projektet efter att skapa algoritmer för dynamisk simulering, optimal design och drift av APV, särskilt de med solföljande system.
+    # id_optiAPV
+    - type: id_optiAPV
+      project_name: "Optimerad design av agrivoltaiska system i Sverige (Opti-APV)"
+      project_excerpt: ""
+      img: ":OptiAPV.jpg"
+      img_title: "img title2"
+      date: "2022-09-01"
+      post: |
+        Huvudmålet med detta projekt är att främja utvecklingen av en robust och internationellt konkurrenskraftig agrivoltaisk (APV) industri i Sverige samtidigt som jordbruksaktiviteter bevaras. Detta kommer att uppnås genom att utveckla specialiserade verktyg för optimal design, simulering, optimering och placering av agrivoltaiska system samt genom att skapa en omfattande databas för deras implementering och drift.
+
+        Specifika mål för detta projekt, i linje med de huvudsakliga forskningsfrågorna, inkluderar:
+
+         - Utvärdera designeffekter: Bedöma effekten av olika agrivoltaiska systemdesigns på olika grödtyper genom att jämföra data från både småskaliga och storskaliga agrivoltaiska system.
+         - Utveckla simuleringsverktyg: Skapa avancerade simulerings- och optimeringsverktyg genom att genomföra dedikerade laboratorie- och fältbaserade grödexperiment för att studera fotosynteshastighetsresponsen på varierande strålningsnivåer.
+         - Undersöka ekonomi: Analysera de ekonomiska aspekterna av agrivoltaiska system med hänsyn till projekt av olika skala, design och tekniska integrationer för att utveckla hållbara affärsmodeller för teknikadoption.
+         - Identifiera optimala platser: Använda en GIS-metod för att bestämma möjliga och optimerade platser för APV-system och skala upp modellen för att bedöma potentialen för APV-implementering på nationell nivå genom rumsligt explicita simuleringar och optimeringar.
+    # id_spectral
+    - type: id_spectral
+      project_name: "Förbättra agrivoltaiska systems prestanda med spektralt selektiva solceller"
+      project_excerpt: ""
+      #img: ":OptiAPV.jpg"
+      #img_title: "img title2"
+      date: "2022-08-01"
+      post: |
+        Huvudmålet med detta projekt är att förbättra förståelsen för hur semi-transparenta spektralt selektiva PV-moduler, vanligtvis använda i byggnadsintegrerade projekt eller växthus, kan användas och påverka prestandan hos agrivoltaiska system på öppna fält. Detta kommer att uppnås genom att utveckla och validera ett unikt verktyg för simulering, optimering och design av agrivoltaiska system med dessa avancerade PV-moduler.
+
+        Projektet syftar till att uppnå sitt huvudsakliga syfte och besvara viktiga forskningsfrågor genom två specifika mål:
+
+         - Etablera ett småskaligt agrivoltaiskt system med spektralt selektiva solceller vid Kärrbo Prästgård.
+         - Betydligt förbättra modellen som utvecklats i tidigare studier för att utföra tekno-ekonomiska simuleringar och optimeringar av agrivoltaiska system baserade på spektralt selektiva solceller.
+
+        Det föreslagna forskningsprojektet kommer att använda följande metoder:
+
+         - Genomföra en litteraturöversikt om användningen av spektralt selektiva solceller för agrivoltaiska tillämpningar.
+         - Engagera projektstödjare för att förstå industriella och jordbruksbehov.
+         - Etablera ett småskaligt, toppmodernt experiment.
+         - Utveckla en avancerad modell för simulering och optimering av agrivoltaiska system baserade på spektralt selektiva solceller.
+    # id_SOLVE
+    - type: id_SOLVE
+      project_name: "Solenergiforskningscenter Sverige (SOLVE)"
+      project_excerpt: ""
+      #img: ":OptiAPV.jpg"
+      #img_title: "img title2"
+      date: "2022-01-01"
+      post: |
+        SOLVE forskningsprojekt är indelade i sju sammanlänkade teman, som vart och ett behandlar olika aspekter av att utöka PV-elektricitet inom det svenska energisystemet. Främst genomförda av doktorander med vägledning från ett konsortium av mentorer, inkluderar SOLVE också kortare projekt som involverar masterstudenter och seniorforskare. SOLVE är ett av 11 nya kompetenscentrum som stöds av Energimyndigheten, med finansiering som tillhandahålls lika av akademiska partners, offentliga och privata sektorns partners och Energimyndigheten.
+        Externa projektmedlemmar inkluderar Uppsala universitet (samordnande partner), Sveriges lantbruksuniversitet (SLU), Karlstads universitet, Högskolan Dalarna och Research Institutes of Sweden (RISE). Projektet leds av Marika Edoff och biträdande chef Jonathan Scragg, båda från Uppsala universitet.
+
+        SOLVE syftar till att bygga robusta partnerskap mellan svenska forskare och en mångfaldig grupp av intressenter inom solenergi, från
+        produktutvecklare till systemägare, nätoperatörer och regionala regeringar. Målen är att:
+
+         - Generera kunskap för att främja och upprätthålla tillväxten av PV-marknader i Sverige.
+         - Sprida denna kunskap till ett brett nätverk av intressenter inom PV-sektorn.
+         - Utbilda och koppla kompetenta individer med näringsliv och industri.
