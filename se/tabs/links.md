@@ -41,54 +41,61 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Liens"
-    info: "La description de votre page de liens."
+    header: "Forskningsaktiviteter"
+    info: "På denna sida kan du hitta information om alla mina pågående undervisningsaktiviteter inom solenergi och maskininlärning vid Mälardalens universitet i Sverige. Dessutom visas mina konferenser och andra forskningsaktiviteter."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
+    - title: "Undervisning vid Mälardalens universitet"
       type: id_jekyiiliquid
       color: "gray"
-    - title: "Création de sites web"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "La programmation"
-      type: id_programming
-      color: "#62b462"
+    - title: "Konferenser, seminarier och workshops"
+      type: id_conf
+      color: "green"
+
 
   list:
     -
-    # programming
-    - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow est un site Web de questions et réponses pour les programmeurs professionnels et enthousiastes."
-
     # jekyiiliquid
     - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transformez votre texte brut en sites Web et blogs statiques."
+      title: "ERA318 - Simuleringar och prognoser av elmarknader"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA318"
+      info: "Föreläsningar om den kommersiella PV-programvaran PVsyst lär studenterna hur man utvecklar PV-projekt för bostadsapplikationer. I dessa föreläsningar täcker vi praktiska begränsningar, implementering av skuggscener, PV-ekonomi och övervägande av att integrera batterilagring i applikationen."
     - type: id_jekyiiliquid
-      title: "Aide-mémoire Jekyll"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "Il y a tellement de variables et de filtres Jekyll à retenir qu'il peut être difficile de tout garder en tête. Cette feuille aide-mémoire sert de référence rapide de tout ce que Jekyll peut faire."
+      title: "ERA306 - Hållbara energisystem - Avancerade studier"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA306"
+      info: "Denna kurs har samma föreläsningar som ERA318 om den kommersiella PV-programvaran PVsyst lär studenterna hur man utvecklar PV-projekt för bostadsapplikationer. I dessa föreläsningar täcker vi praktiska begränsningar, implementering av skuggscener, PV-ekonomi och övervägande av att integrera batterilagring i applikationen."
     - type: id_jekyiiliquid
-      title: "Liquid pour les designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Wiki Liquid pour les Designers sur GitHub."
+      title: "ERA217 - Introduktion till hållbart energisystem"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA217"
+      info: "En enklare föreläsning om hur man använder PVsyst för att lära studenterna hur man utvecklar ett enkelt projekt och får fram ekonomin."
     - type: id_jekyiiliquid
-      title: "Liquid pour programmeurs"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Wiki Liquid pour les programmeurs sur GitHub."
+      title: "ERA125 - Solenergi"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA125"
+      info: "I denna kurs används den enkla föreläsningen om hur man använder PVsyst. Dessutom genomförs en experimentell föreläsning med studenterna genom att koppla två solmoduler i serie/parallell för att skapa IV-kurvan med våra lampor och variabelt motstånd."
     - type: id_jekyiiliquid
-      title: "Référence liquid"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid est un langage de gabarit créé par Shopify et écrit en Ruby. Il est maintenant disponible en tant que projet open source sur GitHub."
-
-    # webdesign
-    - type: id_webdesign
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools propose des didacticiels, des références et des exercices en ligne gratuits dans toutes les principales langues du Web. Couvrant des sujets populaires comme HTML, CSS, JavaScript, Python, SQL, Java et bien d'autres."
+      title: "MTK337- Multivariat dataanalys inom teknik"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=MTK337"
+      info: "En föreläsning om rekurrenta neurala nätverk, long-short term memory (LSTM) och bi-LSTM inklusive en praktisk övning genom att förutsäga solenergi produktionen."
+    - type: id_jekyiiliquid
+      title: "ERA403- Examensarbete inom energiteknik"
+      url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA403"
+      info: "Jag är handledare för examensarbeten med fokus på solenergitillämpningar."
+    # id_conf
+    - type: id_conf
+      title: "Agrivoltaics Conference 2022 - Piacenza, Italien"
+      url: "https://www.tib-op.org/ojs/index.php/agripv/index."
+      info: "Höll en posterpresentation om direkt och diffus skuggning för agrivoltaiska system."
+    - type: id_conf
+      title: "NextGems Hackathon 2022 - Wien, Österrike"
+      url: "https://nextgems-h2020.eu/hackathon/"
+      info: "Jag arbetade med SR-ESMs IFS och ICON-modeller för att förbättra förnybara energisystem. Inledningsvis analyserade jag data för att utvärdera noggrannheten i nuvarande solstrålningsberäkningar för fotovoltaisk (PV) modellering. Dessutom utvecklade jag en rutnätsmodell för att beräkna PV-produktionspotentialen för hela regionen."
+    - type: id_conf
+      title: "Agrivoltaic workshop 2022 - Västerås, Sverige"
+      url: "https://www.mdu.se/en/malardalen-university/research/research-projects/evaluation-of-the-first-agrivoltaic-system-in-sweden"
+      info: "Jag presenterade framtida riktningar baserat på insikter från vårt första projekt i Sverige, som fokuserade på agrivoltaiska system. Betoningen låg på modellerings- och optimeringsstrategier."
+    - type: id_conf
+      title: "Agrivoltaics Conference 2023 - Daegu, Sydkorea"
+      url: "https://www.agrivoltaics-conference.org/history-and-past-conferences"
+      info: "Jag höll en posterpresentation om 3D-vyfaktormodellering för vertikala, enaxliga och tvåaxliga agrivoltaiska system, med betoning på metoder för att uppskatta elproduktionen. Ett konferensdokument godkändes och publicerades om detta."
 ---
