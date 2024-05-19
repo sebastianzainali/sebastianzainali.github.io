@@ -170,7 +170,7 @@ projects:
 cv:
   title: CV
   button_name: CV
-  pdf_url: "/assets/CV_Sebastian_Zainali_svenska.pdf"
+  pdf_url: "/assets/CV_Sebastian_Zainali_english.pdf"
 
 # for privacy-policy layout
 privacy-policy:

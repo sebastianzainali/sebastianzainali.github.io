@@ -48,11 +48,11 @@ meta_common_description: "Sebastian Zainali's hemsida"
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
-  #- linkedin: ""
-  #- twitter: ""
-  #- mastodon: ""
+  - github: "sebastianzainali"
+  - email: "sebastianzainali@gmail.com"
+  - linkedin: "sebastian-zainali-32a478173/"
+  - orcid: "0000-0003-2225-029X"
+  - googlescholar: "JKByoIEAAAAJ&hl"
   #- instagram: ""
   #- youtube: ""
   #- facebook: ""

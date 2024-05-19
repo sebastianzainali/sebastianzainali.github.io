@@ -5,7 +5,7 @@
 brand: "Sebastian Zainali"
 
 # text below the brand name
-brand_sub_text: "PhD student in energy engineering"
+brand_sub_text: "PhD student in energy systems"
 
 # used for seo meta post author (if it's not defined in post)
 name: "Sebastian Zainali"
@@ -19,7 +19,7 @@ home:
 
 # about page sub title
 about:
-  sub_title: "PhD Student in energy engineering"
+  sub_title: "PhD Student in energy systems"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.

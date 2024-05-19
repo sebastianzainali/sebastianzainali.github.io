@@ -12,7 +12,7 @@ page_data:
     back_color: "ljusblå"
 
   category:
-    - title: "Agrivoltaik i Skåne"
+    - title: "Agrivoltaics i Skåne"
       type: id_solbrukskane
       color: "#62b462"
     - title: "MATRIX"
@@ -31,7 +31,7 @@ page_data:
   list:
     # id_solbrukskane
     - type: id_solbrukskane
-      project_name: "Agrivoltaik i Skåne"
+      project_name: "Agrivoltaics i Skåne"
       project_excerpt: ""
       #img: ":project2_thumb.jpg"
       #img_title: "img title2"

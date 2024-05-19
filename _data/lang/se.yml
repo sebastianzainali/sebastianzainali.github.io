@@ -143,10 +143,10 @@ home:
   new_posts_show_more_button: Visa mer ...
 
 # for archives layout
-archives:
-  title: Arkiv
-  button_name: Arkiv
-  page_header: Arkiv
+#archives:
+#  title: Arkiv
+#  button_name: Arkiv
+#  page_header: Arkiv
 
 # for about layout
 about:
@@ -156,10 +156,10 @@ about:
 
 # for links layout
 links:
-  title: Länkar
-  button_name: Länkar
-  link_text: Webbplats
-  info_text: Info
+  title: Aktiviteter
+  button_name: Aktiviteter
+  link_text: Aktivitet
+  info_text: Information
 
 # for projects layout
 projects:
@@ -167,6 +167,11 @@ projects:
   button_name: Projekt
   read_more_text: Läs mer
   read_less_text: Visa mindre
+
+cv:
+  title: CV
+  button_name: CV
+  pdf_url: "/assets/CV_Sebastian_Zainali_svenska.pdf"
 
 # for privacy-policy layout
 privacy-policy:

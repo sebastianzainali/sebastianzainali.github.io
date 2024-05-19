@@ -48,16 +48,10 @@ Welcome to my website! Here, you will find a comprehensive overview of my profes
 ## Ongoing Research
 Dive into the world of my current research projects, where I tackle some of the most intriguing questions and challenges in my area of expertise. From preliminary findings to detailed analyses, this section provides an inside look at the innovative work that drives my academic passion.
 
-## Presentations
-Stay updated with my latest presentations, where I share insights and breakthroughs at conferences, seminars, and workshops. Here, you can access slides, videos, and summaries of my talks, offering a glimpse into the dynamic discussions and ideas I bring to the academic community.
-
-## Teaching
-Discover my approach to education through my teaching portfolio. This section highlights the courses I teach, my teaching philosophy, and resources for students. Whether you're a current student or interested in my pedagogical methods, you'll find valuable information about my commitment to fostering a supportive and stimulating learning environment.
-
-## About Me
-Learn more about my background, professional journey, and the experiences that have shaped my career. This section provides a personal touch, offering insights into my academic path, achievements, and the values that guide my work.
+## Activities
+Stay updated with my latest research activities, where I share the conferences, seminars, and workshops I participate in. You can also discover my approach to education through my teaching portfolio, where I highlight the courses I teach.
 
 ## Contact Information & CV
-For those interested in collaboration or further information, my contact details are readily available. Additionally, you can access my comprehensive CV, which details my academic history, publications, and professional accomplishments.
+For those interested in collaboration or further information, my contact details are readily available. Additionally, you can access my comprehensive CV.
 
 Thank you for visiting my website. I hope you find it informative and engaging. Please feel free to reach out with any questions or opportunities for collaboration.

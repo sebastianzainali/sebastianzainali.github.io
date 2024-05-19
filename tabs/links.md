@@ -41,15 +41,15 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Research activities"
-    info: "On this page, you can find information about all my ongoing teaching activities in solar energy and machine learning at Mälardalen University in Sweden. Additionally, my conference and other research activities are also displayed."
+    header: "Forskningsaktiviteter"
+    info: "På denna sida kan du hitta information om alla mina pågående undervisningsaktiviteter inom solenergi och maskininlärning vid Mälardalens universitet i Sverige. Dessutom visas mina konferenser och andra forskningsaktiviteter."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Teaching at Mälardalen University"
+    - title: "Undervisning vid Mälardalens universitet"
       type: id_jekyiiliquid
       color: "gray"
-    - title: "Conferences, seminars, and workshops"
+    - title: "Konferenser, seminarier och workshops"
       type: id_conf
       color: "green"
 
@@ -58,46 +58,44 @@ page_data:
     -
     # jekyiiliquid
     - type: id_jekyiiliquid
-      title: "ERA318 - Simulations and forecasting of electricity markets"
+      title: "ERA318 - Simuleringar och prognoser av elmarknader"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA318"
-      info: "Lectures on the commercial PV software PVsyst teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
+      info: "Föreläsningar om den kommersiella PV-programvaran PVsyst lär studenterna hur man utvecklar PV-projekt för bostadsapplikationer. I dessa föreläsningar täcker vi praktiska begränsningar, implementering av skuggscener, PV-ekonomi och övervägande av att integrera batterilagring i applikationen."
     - type: id_jekyiiliquid
-      title: "ERA306 - Sustainable Energy Systems - Advanced Studies"
+      title: "ERA306 - Hållbara energisystem - Avancerade studier"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA306"
-      info: "This course has the same lectures at the same time as ERA318 on the commercial PV software PVsyst teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
+      info: "Denna kurs har samma föreläsningar som ERA318 om den kommersiella PV-programvaran PVsyst lär studenterna hur man utvecklar PV-projekt för bostadsapplikationer. I dessa föreläsningar täcker vi praktiska begränsningar, implementering av skuggscener, PV-ekonomi och övervägande av att integrera batterilagring i applikationen."
     - type: id_jekyiiliquid
-      title: "ERA217 - Introduction to sustainable energy system"
+      title: "ERA217 - Introduktion till hållbart energisystem"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA217"
-      info: "A more simple lecture on how to use PVsyst to teach the students how to develop a simple project and obtain the economics."
+      info: "En enklare föreläsning om hur man använder PVsyst för att lära studenterna hur man utvecklar ett enkelt projekt och får fram ekonomin."
     - type: id_jekyiiliquid
-      title: "ERA125 - Solar energy"
+      title: "ERA125 - Solenergi"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA125"
-      info: "In this course the simple lecture on how to use PVsyst is used. Additionally, experimental lecture is done with the students by 
-      coupling two solar modules in series/parallel to create the IV-curve with our lamps and variable resistance."
+      info: "I denna kurs används den enkla föreläsningen om hur man använder PVsyst. Dessutom genomförs en experimentell föreläsning med studenterna genom att koppla två solmoduler i serie/parallell för att skapa IV-kurvan med våra lampor och variabelt motstånd."
     - type: id_jekyiiliquid
-      title: "MTK337- Multivariate data analysis in engineering"
+      title: "MTK337- Multivariat dataanalys inom teknik"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=MTK337"
-      info: "A lecture on recurrent neural network, long-short term memory (LSTM) and bi-LSTM including a practical exercise by forecasting the
-      solar electricity production."
+      info: "En föreläsning om rekurrenta neurala nätverk, long-short term memory (LSTM) och bi-LSTM inklusive en praktisk övning genom att förutsäga solenergi produktionen."
     - type: id_jekyiiliquid
-      title: "ERA403- Degree project in energy engineering"
+      title: "ERA403- Examensarbete inom energiteknik"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA403"
-      info: "I am a supervisor for degree projects focused on solar energy applications."
+      info: "Jag är handledare för examensarbeten med fokus på solenergitillämpningar."
     # id_conf
     - type: id_conf
-      title: "Agrivoltaics Conference 2022 - Piacenza, Italy"
+      title: "Agrivoltaics Conference 2022 - Piacenza, Italien"
       url: "https://www.tib-op.org/ojs/index.php/agripv/index."
-      info: "Held a poster presentation regarding direct and diffuse shading for agrivoltaic systems."
+      info: "Höll en posterpresentation om direkt och diffus skuggning för agrivoltaiska system."
     - type: id_conf
-      title: "NextGems Hackathon 2022 - Vienna, Austria"
+      title: "NextGems Hackathon 2022 - Wien, Österrike"
       url: "https://nextgems-h2020.eu/hackathon/"
-      info: "I worked with the SR-ESMs IFS and ICON models to enhance renewable energy systems. Initially, I analyzed the data to evaluate the accuracy of current solar irradiance estimates for photovoltaic (PV) modeling. Additionally, I developed a gridded model to calculate the PV production potential for the entire region."
+      info: "Jag arbetade med SR-ESMs IFS och ICON-modeller för att förbättra förnybara energisystem. Inledningsvis analyserade jag data för att utvärdera noggrannheten i nuvarande solstrålningsberäkningar för fotovoltaisk (PV) modellering. Dessutom utvecklade jag en rutnätsmodell för att beräkna PV-produktionspotentialen för hela regionen."
     - type: id_conf
-      title: "Agrivoltaic workshop 2022 - Västerås, Sweden"
+      title: "Agrivoltaic workshop 2022 - Västerås, Sverige"
       url: "https://www.mdu.se/en/malardalen-university/research/research-projects/evaluation-of-the-first-agrivoltaic-system-in-sweden"
-      info: "I presented future directions based on insights gained from our initial project in Sweden, which focused on agrivoltaic systems. The emphasis was on modeling and optimisation strategies."
+      info: "Jag presenterade framtida riktningar baserat på insikter från vårt första projekt i Sverige, som fokuserade på agrivoltaiska system. Betoningen låg på modellerings- och optimeringsstrategier."
     - type: id_conf
-      title: "Agrivoltaics Conference 2023 - Daegu, South Korea"
+      title: "Agrivoltaics Conference 2023 - Daegu, Sydkorea"
       url: "https://www.agrivoltaics-conference.org/history-and-past-conferences"
-      info: "I delivered a poster presentation on 3D view factor modeling for vertical, single-axis, and dual-axis agrivoltaic systems, highlighting methods for estimating electricity production. A conference proceeding were accepted and published on it."
+      info: "Jag höll en posterpresentation om 3D-vyfaktormodellering för vertikala, enaxliga och tvåaxliga agrivoltaiska system, med betoning på metoder för att uppskatta elproduktionen. Ett konferensdokument godkändes och publicerades om detta."
 ---

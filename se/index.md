@@ -39,7 +39,17 @@ img: ":home-heading.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+# Välkommen till Min Akademiska Portfölj
 
-{{ website_info_text_second }}
+Välkommen till min hemsida! Här hittar du en omfattande översikt av min professionella resa, pågående forskning och akademiska bidrag. Oavsett om du är en kollega, student eller bara nyfiken på mitt arbete, inbjuder jag dig att utforska de olika sektionerna som visar min dedikation till att främja kunskap inom mitt område.
+
+## Pågående Forskning
+Dyk in i världen av mina nuvarande forskningsprojekt, där jag tar mig an några av de mest fascinerande frågorna och utmaningarna inom mitt expertisområde. Från preliminära resultat till detaljerade analyser, ger denna sektion en inblick i det innovativa arbete som driver min akademiska passion.
+
+## Aktiviteter
+Håll dig uppdaterad med mina senaste forskningsaktiviteter, där jag delar de konferenser, seminarier och workshops jag deltar i. Du kan också upptäcka mitt förhållningssätt till utbildning genom min undervisningsportfolio, där jag lyfter fram de kurser jag undervisar.
+
+## Kontaktinformation & CV
+För dig som är intresserad av samarbete eller vill ha mer information finns mina kontaktuppgifter lättillgängliga. Dessutom kan du få tillgång till mitt omfattande CV.
+
+Tack för att du besöker min hemsida. Jag hoppas att du finner den informativ och engagerande. Tveka inte att höra av dig med eventuella frågor eller möjligheter till samarbete.
