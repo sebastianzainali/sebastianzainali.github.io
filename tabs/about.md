@@ -40,10 +40,10 @@ img: ":about.jpg"
 
 <!-- Add your content below -->
 
-# Welcome to My Website
+# About Me
 
-Welcome to my personal website. Here you'll find information about my projects, blog posts, and more.
+I am Sebastian Zainali, a PhD student at Mälardalen University, specializing in agrivoltaic systems. My research focuses on optimizing these systems to identify the most efficient solutions for sustainable energy production. I hold a Licentiate degree in Agrivoltaic Systems and an MSc in Sustainable Energy Systems from Mälardalen University.
 
-## About Me
+Throughout my academic journey, I have developed expertise in the modeling, simulation, and optimization of energy systems. I have practical experience as a teacher, conducting simulations and experiments in solar energy labs, and as a research assistant, where I contributed to IoT station installations and compared machine learning algorithms to reduce hydropower costs.
 
-I am a software developer with a passion for creating web applications and learning new technologies.
+Beyond my academic and professional endeavors, I am an avid programmer proficient in Python, C, MATLAB, and other languages, adept at both backend and frontend development. I live in Stockholm with my wife and daughter, balancing a fulfilling family life with my professional ambitions. An active individual, I work out six to seven times a week, enjoying sports like football and basketball. This commitment to fitness reflects my driven personality and passion for solving complex problems.

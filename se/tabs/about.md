@@ -38,7 +38,10 @@ img: ":about.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+# Om mig
 
-{{ website_info_text_second }}
+Jag heter Sebastian Zainali och är doktorand vid Mälardalens universitet med specialisering på agrivoltaiska system. Min forskning fokuserar på att optimera dessa system för att hitta de mest effektiva lösningarna för hållbar energiproduktion. Jag har en licentiatexamen i agrivoltaiska system och en magisterexamen i hållbara energisystem från Mälardalens universitet.
+
+Under min akademiska resa har jag utvecklat expertis inom modellering, simulering och optimering av energisystem. Jag har praktisk erfarenhet som lärare, där jag har genomfört simuleringar och experiment i solenergilaboratorier, samt som forskningsassistent, där jag bidrog till installationer av IoT-stationer och jämförde maskininlärningsalgoritmer för att minska kostnaderna för vattenkraft.
+
+Utöver mina akademiska och professionella strävanden är jag en hängiven programmerare, skicklig i Python, C, MATLAB och andra språk, både för backend- och frontend-utveckling. Jag bor i Stockholm med min fru och dotter, och balanserar ett meningsfullt familjeliv med mina professionella ambitioner. Som en aktiv person tränar jag sex till sju gånger i veckan och njuter av sporter som fotboll och basket. Detta engagemang för fitness speglar min drivna personlighet och passion för att lösa komplexa problem.
