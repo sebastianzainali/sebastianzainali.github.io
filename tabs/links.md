@@ -64,7 +64,7 @@ page_data:
     - type: id_jekyiiliquid
       title: "ERA306 - Sustainable Energy Systems - Advanced Studies"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA306"
-      info: "This course has the same lectures at the same time as ERA318 on the commercial PV software PVsyst teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
+      info: "This course has the same lectures at the same time as ERA318 on the commercial PV software PVsyst. Where I teach students how to develop PV projects for residential applications. In these lectures, we cover practical limitations, the implementation of shading scenes, PV economics, and the consideration of integrating battery storage into the application."
     - type: id_jekyiiliquid
       title: "ERA217 - Introduction to sustainable energy system"
       url: "https://www.mdu.se/en/malardalen-university/education/courses?kod=ERA217"
