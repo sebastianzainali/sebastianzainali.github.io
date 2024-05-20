@@ -33,8 +33,8 @@ page_data:
     - type: id_solbrukskane
       project_name: "Agrivoltaics i Skåne"
       project_excerpt: ""
-      #img: ":project2_thumb.jpg"
-      #img_title: "img title2"
+      img: ":Solbruk.jpg"
+      img_title: "img title2"
       date: "2023-09-01"
       post: |
         Projektet syftar till att utforska effektiv samtidig produktion av el och mat på samma mark genom omfattande samarbete med representanter från akademi, näringsliv och offentlig sektor. Tester från andra länder har visat positiva resultat, men specifik kunskap behövs för att tillämpa agrivoltaik i Skåne-regionen. Planen innefattar att designa och bygga en fysisk testanläggning i Skåne för att praktiskt undersöka och demonstrera den effektiva kombinationen av jordbruk och solenergi under lokala förhållanden.
@@ -43,8 +43,8 @@ page_data:
     - type: id_matrix
       project_name: "MATRIX - Utvärdering av den första agrivoltaiska anläggningen i Sverige"
       project_excerpt: ""
-      #img: ":project2_thumb.jpg"
-      #img_title: "img title2"
+      img: ":MATRIX.jpg"
+      img_title: "img title2"
       date: "2023-02-28"
       post: |
         Agrivoltaiska system förväntas spela en avgörande roll i framtida energisystem genom att lösa konflikten mellan markanvändning för energi- och livsmedelsproduktion, vilket är typiskt för konventionella solparker. Detta forskningsprojekt bygger på det banbrytande arbete som finansierats av Energimyndigheten för att etablera det första experimentella agrivoltaiska systemet i Sverige.
@@ -70,8 +70,8 @@ page_data:
     - type: id_spectral
       project_name: "Förbättra agrivoltaiska systems prestanda med spektralt selektiva solceller"
       project_excerpt: ""
-      #img: ":OptiAPV.jpg"
-      #img_title: "img title2"
+      img: ":SSSC.jpg"
+      img_title: "img title2"
       date: "2022-08-01"
       post: |
         Huvudmålet med detta projekt är att förbättra förståelsen för hur semi-transparenta spektralt selektiva PV-moduler, vanligtvis använda i byggnadsintegrerade projekt eller växthus, kan användas och påverka prestandan hos agrivoltaiska system på öppna fält. Detta kommer att uppnås genom att utveckla och validera ett unikt verktyg för simulering, optimering och design av agrivoltaiska system med dessa avancerade PV-moduler.
@@ -91,8 +91,8 @@ page_data:
     - type: id_SOLVE
       project_name: "Solenergiforskningscenter Sverige (SOLVE)"
       project_excerpt: ""
-      #img: ":OptiAPV.jpg"
-      #img_title: "img title2"
+      img: ":SOLVE.jpg"
+      img_title: "img title2"
       date: "2022-01-01"
       post: |
         SOLVE forskningsprojekt är indelade i sju sammanlänkade teman, som vart och ett behandlar olika aspekter av att utöka PV-elektricitet inom det svenska energisystemet. Främst genomförda av doktorander med vägledning från ett konsortium av mentorer, inkluderar SOLVE också kortare projekt som involverar masterstudenter och seniorforskare. SOLVE är ett av 11 nya kompetenscentrum som stöds av Energimyndigheten, med finansiering som tillhandahålls lika av akademiska partners, offentliga och privata sektorns partners och Energimyndigheten.
